@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --primaryText: 17 17 17;
 
+    --primaryBackground: 255 255 255;
+
+    --error: 211 47 47;
+  }
+  :root[class~="dark"] {
+    --primaryText: 187 187 187;
+
+    --primaryBackground: 17 17 17;
+
+    --error: 244 67 54;
+  }
+}

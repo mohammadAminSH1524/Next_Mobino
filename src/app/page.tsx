@@ -1,7 +1,12 @@
 
+import ThemeButton from "@/components/ThemeButton";
 
 export default function Home() {
   return (
-   <main>yeahhhhhhhhhhhhhhh</main>
-  )
+    <main>
+      <div>
+        <ThemeButton />
+      </div>
+    </main>
+  );
 }
